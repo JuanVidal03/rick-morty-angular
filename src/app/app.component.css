@@ -1,0 +1,17 @@
+.principal-title-container{
+    background: #f2f2f2;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal-title{
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #202329;
+    font-weight: 900;
+}
+.content{
+    background-color: #202329;
+    color: #fff;
+}

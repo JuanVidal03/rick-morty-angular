@@ -1,3 +1,13 @@
-<div *ngFor="let personaje of personajes">
-    <h3>{{ personaje.name }}</h3>
+<div class="character-container">
+    <figure class="character-img-container">
+        <img [src]="personaje.image" alt="{{ personaje.name }}">
+    </figure>
+    <div class="character-info-container">
+        <h4>{{ personaje.name }}</h4>
+        <p><span>Ubicacion: </span>{{ personaje.location.name }}</p>
+        <p><span>Origen: </span>{{ personaje.origin.name }}</p>
+        <p><span>Genero: </span>{{ personaje.gender }}</p>
+        <p><span>Especie: </span>{{ personaje.species }}</p>
+        <p><span>Estado: </span>{{ personaje.status }}</p>
+    </div>
 </div>

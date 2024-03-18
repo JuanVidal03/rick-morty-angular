@@ -23,4 +23,6 @@ export class CharactersService {
         map(res => res.results)
       );
   }
+  
+ 
 }
