@@ -19,7 +19,9 @@ export class CharactersService {
 
   // obteniendo todos los personajes, aqui solo estoy obteniendo el resultado con el array de los personajes
   getAllCharacters(){
-    return this.http.get<CharacterDataApi>('https://rickandmortyapi.com/api/character')
+    const numeroAleatorio = Math.floor(Math.random() * 42) + 1;
+
+    return this.http.get<CharacterDataApi>(`https://rickandmortyapi.com/api/character/?page=${numeroAleatorio}`)
       .pipe(
         map(res => res.results)
       );
