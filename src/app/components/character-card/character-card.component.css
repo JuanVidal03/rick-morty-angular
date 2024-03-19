@@ -29,6 +29,7 @@
 }
 .character-info-container span{
     font-weight: 700;
+    color: #cfcece;
 }
 .character-info-container h4{
     font-size: 1.5rem;
@@ -37,4 +38,5 @@
 }
 .character-info-container p{
     margin-bottom: .5rem;
+    color: #afaeae;
 }
