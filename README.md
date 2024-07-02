@@ -17,8 +17,6 @@ La aplicación web permite a los usuarios explorar información detallada sobre 
 ## Características
 
 - Listado de personajes con detalles individuales.
-- Listado de ubicaciones con detalles individuales.
-- Listado de episodios con detalles individuales.
 - Paginación y búsqueda de personajes.
 - Interfaz de usuario responsive y amigable.
 
@@ -49,7 +47,7 @@ Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 
 4. Ejecuta la aplicación en modo de desarrollo:
    ```bash
-   npm install
+   ng serve
     ```
 
 ## Despliegue
