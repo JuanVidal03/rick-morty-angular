@@ -1,27 +1,57 @@
-# RickAndMortyAngular
+# Rick and Morty API Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
+Este proyecto es una aplicación web desarrollada con Angular que consume la API de Rick and Morty para mostrar información sobre los personajes. La aplicación está desplegada en Vercel y se puede acceder a través del siguiente enlace: [Rick and Morty Angular App](https://rick-morty-api-angular.vercel.app/).
 
-## Development server
+## Tabla de Contenidos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Descripción](#descripción)
+- [Características](#características)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Despliegue](#despliegue)
 
-## Code scaffolding
+## Descripción
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La aplicación web permite a los usuarios explorar información detallada sobre los personajes, ubicaciones y episodios de la serie Rick and Morty. Utiliza la API pública de Rick and Morty para obtener los datos y presentarlos de una manera amigable e interactiva.
 
-## Build
+## Características
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Listado de personajes con detalles individuales.
+- Listado de ubicaciones con detalles individuales.
+- Listado de episodios con detalles individuales.
+- Paginación y búsqueda de personajes.
+- Interfaz de usuario responsive y amigable.
 
-## Running unit tests
+## Tecnologías Utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Framework:** Angular
+- **API:** Rick and Morty API (https://rickandmortyapi.com/)
+- **Despliegue:** Vercel (https://vercel.com/)
 
-## Running end-to-end tests
+## Instalación
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 
-## Further help
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/JuanVidal03/rick-morty-angular.git
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Navega al directorio del proyecto:
+   ```bash
+   cd rick-morty-angular
+    ```
+
+3. Instala las dependencias del proyecto:
+   ```bash
+   npm install
+    ```
+
+4. Ejecuta la aplicación en modo de desarrollo:
+   ```bash
+   npm install
+    ```
+
+## Despliegue
+
+La aplicación está desplegada en Vercel. Cualquier cambio realizado en el código del proyecto será automáticamente desplegado en la URL de producción: [Rick and Morty Angular App.](https://rick-morty-api-angular.vercel.app/).
