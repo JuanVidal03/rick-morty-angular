@@ -35,6 +35,9 @@
     color: #000;
     font-weight: 700;
 }
+.btn-container{
+    padding-top: 1.5rem;
+}
 .btn{
     padding: .7rem 1.5rem;
     background-color: #202329;
@@ -49,4 +52,21 @@
 .btn:hover{
     background-color: orange;
     color: #202329;
+}
+@media all and (max-width: 500px){
+    .single-character-img-container img{
+        width: 100%;
+    }
+    .single-character-container{
+        padding: 4rem 2rem ;
+    }
+    .single-character{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 1.5rem;
+    }
+    .single-character-img-container img{
+        height: auto;
+    }
 }

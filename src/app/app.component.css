@@ -11,3 +11,13 @@
     color: #202329;
     font-weight: 900;
 }
+@media all and (max-width: 500px){
+    .principal-title{
+        text-align: center;
+    }
+    .principal-title-container{
+        padding: 1rem;
+        height: auto;
+        line-height: 4.1rem;
+    }
+}
